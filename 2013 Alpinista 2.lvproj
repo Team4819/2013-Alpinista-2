@@ -7,6 +7,7 @@
 	<Property Name="varPersistentID:{09244D17-DC4F-4D2A-9B29-55D62964BBD2}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/XThrottle</Property>
 	<Property Name="varPersistentID:{0B3076C9-CC16-487E-9E09-3F3EDB7E99DE}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/LowerLeftHookSwitch</Property>
 	<Property Name="varPersistentID:{0E87C957-DA8E-4632-B3F7-0ACBC49F2FEB}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ScriptTasks/ArmTask</Property>
+	<Property Name="varPersistentID:{12DE91F7-F88E-41D9-81A0-D4B97BAE8675}" Type="Ref">/My Computer/Globals.lvlib/Config/Controls/ArmLimitOverrideJoystickButton</Property>
 	<Property Name="varPersistentID:{13DFF540-A5CE-4F02-AB0A-6B16DCA3E23D}" Type="Ref">/My Computer/Globals.lvlib/ArmEncoderValue</Property>
 	<Property Name="varPersistentID:{15840F2C-1073-4C9C-AB92-31679AB5CF8F}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ArmPower</Property>
 	<Property Name="varPersistentID:{1658AC88-9189-4AA1-8D9D-E962EB62DF26}" Type="Ref">/My Computer/Globals.lvlib/ScriptTimerRunning</Property>
@@ -19,6 +20,7 @@
 	<Property Name="varPersistentID:{305F7540-EBCA-44E9-9B23-FD848E428411}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/LowerRightHookSwitchValue</Property>
 	<Property Name="varPersistentID:{309BF53D-084F-4BF0-B636-C944A2E75598}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/Controls/YDriveJoystickAxis</Property>
 	<Property Name="varPersistentID:{314DB093-2BC5-40F1-AB02-2B1347AB176E}" Type="Ref">/My Computer/Globals.lvlib/ScriptTasks/UnnassignedTaskQue</Property>
+	<Property Name="varPersistentID:{3713DE3C-E674-42C0-AA99-9436AA9C1D07}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/Controls/ArmLimitOverrideJoystickButton</Property>
 	<Property Name="varPersistentID:{374180F2-4E54-4062-8FD4-B4EDFD850732}" Type="Ref">/My Computer/Globals.lvlib/ControlArmInput</Property>
 	<Property Name="varPersistentID:{38B301DD-90F9-49AD-8379-3DC8D50261CD}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/YThrottle</Property>
 	<Property Name="varPersistentID:{3A2FED6F-857E-4DBC-8FF5-14E6725617D6}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/Camera</Property>
@@ -49,6 +51,7 @@
 	<Property Name="varPersistentID:{603F543A-48B9-491A-917A-84C53D630EE8}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/RightDriveEncoder</Property>
 	<Property Name="varPersistentID:{649BBD61-3598-4876-9725-80306D56773D}" Type="Ref">/My Computer/Globals.lvlib/Refnums/TopHookSwitch</Property>
 	<Property Name="varPersistentID:{673C6530-02F7-45E0-A1FB-5FD8733A07F0}" Type="Ref">/My Computer/Globals.lvlib/LeftUltrasonicValue</Property>
+	<Property Name="varPersistentID:{67DFEF21-08F4-488F-BE69-311A744ABA98}" Type="Ref">/My Computer/Globals.lvlib/ArmLimitOverride</Property>
 	<Property Name="varPersistentID:{6A392D08-4881-4491-89EF-5F2D98F2D03C}" Type="Ref">/My Computer/Globals.lvlib/RightDriveEncoderValue</Property>
 	<Property Name="varPersistentID:{6D9A1259-64AF-4040-8BFE-EEC17D044DB6}" Type="Ref">/My Computer/Globals.lvlib/LowerRightHookSwitchValue</Property>
 	<Property Name="varPersistentID:{6E595CE1-E6BB-4909-BFBC-709DEC6F734F}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/SimUltrasonic</Property>
@@ -73,6 +76,7 @@
 	<Property Name="varPersistentID:{9835AB65-56B3-4EFE-B665-A47D460EAEA5}" Type="Ref">/My Computer/Globals.lvlib/Config/Controls/XDriveJoystickAxis</Property>
 	<Property Name="varPersistentID:{9B42C596-BB5C-4312-B6C6-B3041FEBAB88}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/IO Port/LowerLeftHookSwitchDIO</Property>
 	<Property Name="varPersistentID:{9F45AE13-1321-4D0A-85DC-04CC1607BA02}" Type="Ref">/My Computer/Globals.lvlib/Refnums/Camera</Property>
+	<Property Name="varPersistentID:{A06715C6-E6FB-490A-B902-BF4D1467C75C}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ArmLimitOverride</Property>
 	<Property Name="varPersistentID:{A071D68C-6915-434B-9362-C0B4EA9BE7AA}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ScriptTimerRunning</Property>
 	<Property Name="varPersistentID:{A0E2C53D-4AB6-4129-86D5-D475006C660B}" Type="Ref">/My Computer/Globals.lvlib/Refnums/SimUltrasonic</Property>
 	<Property Name="varPersistentID:{A203618C-813B-4EF2-A54E-66AF8C9476E7}" Type="Ref">/My Computer/Globals.lvlib/Config/IO Port/RightDriveMotor</Property>
@@ -107,15 +111,20 @@
 	<Property Name="varPersistentID:{EE64F6D9-D52B-4956-869B-C992FD605913}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/UltrasonicScalingFactor</Property>
 	<Property Name="varPersistentID:{EF0BD25D-F711-4C1D-BB01-A10031CA4E5A}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/RightUltrasonicValue</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.acl" Type="Str">0800000008000000</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str"></Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Sim Support Files" Type="Folder">
 			<Item Name="FRC SimulatedRSC" Type="Folder">
@@ -129,6 +138,7 @@
 				</Item>
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
+			<Item Name="Robot.xml" Type="Document" URL="../Robot.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="Globals.lvlib" Type="Library" URL="../Globals.lvlib"/>
@@ -227,6 +237,25 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Team Code" Type="Folder">
+			<Item Name="Script" Type="Folder">
+				<Item Name="ScriptLoop.vi" Type="VI" URL="../ScriptLoop.vi"/>
+				<Item Name="Task.ctl" Type="VI" URL="../Task.ctl"/>
+				<Item Name="TaskQue.ctl" Type="VI" URL="../TaskQue.ctl"/>
+				<Item Name="UpdateTask.vi" Type="VI" URL="../UpdateTask.vi"/>
+				<Item Name="EvaluateExpression.vi" Type="VI" URL="../EvaluateExpression.vi"/>
+				<Item Name="Parse Expression.vi" Type="VI" URL="../Parse Expression.vi"/>
+				<Item Name="Expression.ctl" Type="VI" URL="../Expression.ctl"/>
+				<Item Name="ParenthesisWrapper.vi" Type="VI" URL="../ParenthesisWrapper.vi"/>
+				<Item Name="Untitled 6.vi" Type="VI" URL="../Untitled 6.vi"/>
+				<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
+				<Item Name="SimpleEval.vi" Type="VI" URL="../SimpleEval.vi"/>
+				<Item Name="VariableInjector.vi" Type="VI" URL="../VariableInjector.vi"/>
+				<Item Name="GetVariableArray.vi" Type="VI" URL="../GetVariableArray.vi"/>
+				<Item Name="CheckCommandStartStop.vi" Type="VI" URL="../CheckCommandStartStop.vi"/>
+			</Item>
+			<Item Name="Config" Type="Folder">
+				<Item Name="ReadIOConfig.vi" Type="VI" URL="../ReadIOConfig.vi"/>
+			</Item>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
@@ -237,18 +266,14 @@ KeepAliveTimeout 60
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="InitIO.vi" Type="VI" URL="../InitIO.vi"/>
-			<Item Name="ReadIOConfig.vi" Type="VI" URL="../ReadIOConfig.vi"/>
-			<Item Name="ScriptLoop.vi" Type="VI" URL="../ScriptLoop.vi"/>
-			<Item Name="Task.ctl" Type="VI" URL="../Task.ctl"/>
-			<Item Name="TaskQue.ctl" Type="VI" URL="../TaskQue.ctl"/>
-			<Item Name="UpdateTask.vi" Type="VI" URL="../UpdateTask.vi"/>
 			<Item Name="InitControls.vi" Type="VI" URL="../InitControls.vi"/>
 			<Item Name="JoystickAxis.ctl" Type="VI" URL="../JoystickAxis.ctl"/>
 			<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 			<Item Name="LoadRuntimeConf.vi" Type="VI" URL="../LoadRuntimeConf.vi"/>
 			<Item Name="CloseIO.vi" Type="VI" URL="../CloseIO.vi"/>
 			<Item Name="DumpToDashboard.vi" Type="VI" URL="../Config/DumpToDashboard.vi"/>
-			<Item Name="EvaluateExpression.vi" Type="VI" URL="../EvaluateExpression.vi"/>
+			<Item Name="JoystickButton.ctl" Type="VI" URL="../JoystickButton.ctl"/>
+			<Item Name="LogMessage.vi" Type="VI" URL="../LogMessage.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -858,13 +883,10 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
-				<Item Name="SD Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String.vi"/>
-				<Item Name="WPI_DriverStationLCDWrite User Message.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDWrite User Message.vi"/>
-				<Item Name="WPI_DriverStationLCDLCDLine.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDLCDLine.ctl"/>
-				<Item Name="WPI_DriverStationLCDLCDTextCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDLCDTextCacheOp.ctl"/>
-				<Item Name="WPI_DriverStationLCDSetLCDLineText.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDSetLCDLineText.vi"/>
-				<Item Name="WPI_DriverStationLCDLCDTextCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDLCDTextCache.vi"/>
-				<Item Name="NetComm_UpdateLCD.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UpdateLCD.vi"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
+				<Item Name="Error to Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error to Warning.vi"/>
+				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -872,6 +894,8 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="EvaluateCompare.vi" Type="VI" URL="../EvaluateCompare.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
