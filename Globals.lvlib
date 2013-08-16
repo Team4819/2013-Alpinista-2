@@ -341,6 +341,36 @@
 	</Item>
 	<Item Name="ScriptTasks" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Index" Type="Folder">
+			<Item Name="ArmCommands" Type="Variable">
+				<Property Name="featurePacks" Type="Str">Global</Property>
+				<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+				<Property Name="name" Type="Str">ArmCommands</Property>
+				<Property Name="Network:UseBinding" Type="Str">False</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
+				<Property Name="numTypedefs" Type="UInt">0</Property>
+				<Property Name="type" Type="Str">Global</Property>
+				<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"%1!!!!")!A!1!!!!#!""!-0````]'5X2S;7ZH!!!=1%!!!@````]!!!^"=H*B?3"P:C"4&gt;(*J&lt;G=!!1!"!!!!!!!!!!!!!!!!</Property>
+			</Item>
+			<Item Name="DriveCommands" Type="Variable">
+				<Property Name="featurePacks" Type="Str">Global</Property>
+				<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+				<Property Name="Network:UseBinding" Type="Str">False</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
+				<Property Name="numTypedefs" Type="UInt">0</Property>
+				<Property Name="type" Type="Str">Global</Property>
+				<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"%1!!!!")!A!1!!!!#!""!-0````]'5X2S;7ZH!!!=1%!!!@````]!!!^"=H*B?3"P:C"4&gt;(*J&lt;G=!!1!"!!!!!!!!!!!!!!!!</Property>
+			</Item>
+			<Item Name="OtherCommands" Type="Variable">
+				<Property Name="featurePacks" Type="Str">Global</Property>
+				<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+				<Property Name="Network:UseBinding" Type="Str">False</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
+				<Property Name="numTypedefs" Type="UInt">0</Property>
+				<Property Name="type" Type="Str">Global</Property>
+				<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"%1!!!!")!A!1!!!!#!""!-0````]'5X2S;7ZH!!!=1%!!!@````]!!!^"=H*B?3"P:C"4&gt;(*J&lt;G=!!1!"!!!!!!!!!!!!!!!!</Property>
+			</Item>
+		</Item>
 		<Item Name="ArmTask" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -378,7 +408,7 @@
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#IJ!!!!")!A!1!!!!(!!Z!-0````]%4G&amp;N:1!!'E!Q`````R"4&gt;'&amp;S&gt;%.P&lt;G2J&gt;'FP&lt;G&amp;M!!!91$$`````$E6O:%.P&lt;G2J&gt;'FP&lt;G&amp;M!!!11$$`````"F.U=GFO:Q!!'%"!!!(`````!!-+5'&amp;S97VF&gt;'6S=Q!!&amp;%"1!!1!!!!"!!)!"!2598.L!!!51%!!!@````]!"1&gt;598.L586F!!%!"A!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[.A%!!")!A!1!!!!0!!Z!-0````]%4G&amp;N:1!!%%!Q`````Q:4&gt;(*J&lt;G=!!"B!1!!"`````Q!"#F"B=G&amp;N:82F=H-!!"2!-0````]+28BQ=G6T=WFP&lt;A!!$U!+!!F%&gt;8*S982J&lt;WY!&amp;%!Q`````QN3:8"M97.F&lt;76O&gt;!!.1!I!"UZV&lt;76S;7-!&amp;%"!!!(`````!!9'6G&amp;M&gt;76T!!!71&amp;!!"!!$!!1!"1!("U.M&gt;8.U:8)!%E"!!!(`````!!A%98:H=Q!!(%"1!!)!!1!*%6.U98*U)%.P&lt;G2J&gt;'FP&lt;G&amp;M!"J!5!!#!!%!#1^&amp;&lt;G1A1W^O:'FU;7^O97Q!$%!B"V*V&lt;GZJ&lt;G=!&amp;E"1!!5!!!!#!!I!#Q!-"&amp;2B=WM!!"2!1!!"`````Q!."V2B=WN2&gt;75!!1!/!!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
 	<Item Name="ArmEncoderCalibrated" Type="Variable">

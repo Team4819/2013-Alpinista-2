@@ -61,6 +61,7 @@
 	<Property Name="varPersistentID:{720E912F-416B-4CFD-9098-1BADB5467186}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/LeftUltrasonic</Property>
 	<Property Name="varPersistentID:{724A2DD6-EB33-493E-BF4E-27B96C556A6E}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/ArmLowLimit</Property>
 	<Property Name="varPersistentID:{76C1B274-1DD3-4811-BB79-C89B64643E18}" Type="Ref">/My Computer/Globals.lvlib/ArmEncoderCalibrated</Property>
+	<Property Name="varPersistentID:{797508BF-9B90-4976-9DE2-268FD5FD783C}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ScriptTasks/Index/DriveCommands</Property>
 	<Property Name="varPersistentID:{7A62D7A6-39E4-4C7D-B6C8-8FB09D17B658}" Type="Ref">/My Computer/Globals.lvlib/Refnums/LowerRightHookSwitch</Property>
 	<Property Name="varPersistentID:{7C6AD166-5D13-40F5-9DA5-F163E59BB8FE}" Type="Ref">/My Computer/Globals.lvlib/Refnums/RightDriveEncoder</Property>
 	<Property Name="varPersistentID:{85118732-F476-4096-9F19-D7375BEC8E4D}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ArmEncoderValue</Property>
@@ -69,7 +70,9 @@
 	<Property Name="varPersistentID:{8846B876-D210-4956-A33E-ADF335BB0C3D}" Type="Ref">/My Computer/Globals.lvlib/Refnums/ArmEncoder</Property>
 	<Property Name="varPersistentID:{8C4EAF8D-D30D-4E88-89DF-0906B6CF9FC6}" Type="Ref">/My Computer/Globals.lvlib/Config/Controls/YDriveJoystickAxis</Property>
 	<Property Name="varPersistentID:{8C580552-D263-4D2B-BD90-83F98A14E195}" Type="Ref">/My Computer/Globals.lvlib/RightUltrasonicValue</Property>
+	<Property Name="varPersistentID:{8D8BC893-28B5-437F-BC11-4A947520CEA7}" Type="Ref">/My Computer/Globals.lvlib/ScriptTasks/Index/ArmCommands</Property>
 	<Property Name="varPersistentID:{8FCCFD70-1188-4F9E-B080-11D826BACED7}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/IO Port/ArmEncoderPort</Property>
+	<Property Name="varPersistentID:{905240A9-589F-423E-BC5B-0CFE97E81C8A}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ScriptTasks/Index/ArmCommands</Property>
 	<Property Name="varPersistentID:{96346B31-F59B-4237-8B5A-68935DF9104C}" Type="Ref">/My Computer/Globals.lvlib/Config/IO Port/ArmWinchMotor</Property>
 	<Property Name="varPersistentID:{972620DB-9DD7-4567-BB40-346459DB9B36}" Type="Ref">/My Computer/Globals.lvlib/Refnums/ArmLowLimit</Property>
 	<Property Name="varPersistentID:{98166B40-4818-487D-AD87-49F928F1BFC8}" Type="Ref">/My Computer/Globals.lvlib/Config/XThrottle</Property>
@@ -81,6 +84,8 @@
 	<Property Name="varPersistentID:{A0E2C53D-4AB6-4129-86D5-D475006C660B}" Type="Ref">/My Computer/Globals.lvlib/Refnums/SimUltrasonic</Property>
 	<Property Name="varPersistentID:{A203618C-813B-4EF2-A54E-66AF8C9476E7}" Type="Ref">/My Computer/Globals.lvlib/Config/IO Port/RightDriveMotor</Property>
 	<Property Name="varPersistentID:{A30ED90C-5D11-4B0A-8D68-1AC047696C26}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ArmEncoderCalibrated</Property>
+	<Property Name="varPersistentID:{A56AC0D6-81B6-494C-AFE4-BA2E98DA48E8}" Type="Ref">/My Computer/Globals.lvlib/ScriptTasks/Index/DriveCommands</Property>
+	<Property Name="varPersistentID:{A8AA2844-0023-4662-9761-AAF74FCE5550}" Type="Ref">/My Computer/Globals.lvlib/ScriptTasks/Index/OtherCommands</Property>
 	<Property Name="varPersistentID:{B120BB8E-6CCE-4CAA-BA3F-B61EA4892FC1}" Type="Ref">/My Computer/Globals.lvlib/YPower</Property>
 	<Property Name="varPersistentID:{B1250455-33D9-4DB2-8603-456C1CA0E94D}" Type="Ref">/My Computer/Globals.lvlib/Config/IO Port/LowerRightHookSwitchDIO</Property>
 	<Property Name="varPersistentID:{B280F8CA-07DC-4CB1-905D-1CEC39AD8FC0}" Type="Ref">/My Computer/Globals.lvlib/Refnums/LeftDriveEncoder</Property>
@@ -95,6 +100,7 @@
 	<Property Name="varPersistentID:{C8E06763-69D7-4539-87BC-BD8BABA4558A}" Type="Ref">/My Computer/Globals.lvlib/ScriptTasks/ArmTask</Property>
 	<Property Name="varPersistentID:{CAFC9468-87E3-4826-8DA2-12026E0653CA}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/SimUltrasonicValue</Property>
 	<Property Name="varPersistentID:{CCA1D73A-99E7-4064-B278-B735A4C1B119}" Type="Ref">/My Computer/Globals.lvlib/Config/ArmThrottle</Property>
+	<Property Name="varPersistentID:{D302AFFE-5380-4AF5-A605-29DD0CD7024F}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/ScriptTasks/Index/OtherCommands</Property>
 	<Property Name="varPersistentID:{D46E79EA-5DF5-4A6F-86F3-4C02E52A7D8F}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Config/IO Port/ArmWinchMotor</Property>
 	<Property Name="varPersistentID:{D4AC1572-D52E-451F-BABB-CDF5F2C861A8}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/TopHookSwitchValue</Property>
 	<Property Name="varPersistentID:{D8718F33-016F-4DC8-BE93-8EC53BFE50DE}" Type="Ref">/RT CompactRIO Target/Globals.lvlib/Refnums/RightUltrasonic</Property>
@@ -252,6 +258,7 @@ KeepAliveTimeout 60
 				<Item Name="VariableInjector.vi" Type="VI" URL="../VariableInjector.vi"/>
 				<Item Name="GetVariableArray.vi" Type="VI" URL="../GetVariableArray.vi"/>
 				<Item Name="CheckCommandStartStop.vi" Type="VI" URL="../CheckCommandStartStop.vi"/>
+				<Item Name="LoadScript.vi" Type="VI" URL="../LoadScript.vi"/>
 			</Item>
 			<Item Name="Config" Type="Folder">
 				<Item Name="ReadIOConfig.vi" Type="VI" URL="../ReadIOConfig.vi"/>
@@ -281,6 +288,9 @@ KeepAliveTimeout 60
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="ConfMaker.vi" Type="VI" URL="../ConfMaker.vi"/>
 		<Item Name="Globals.lvlib" Type="Library" URL="../Globals.lvlib"/>
+		<Item Name="StopIfCan.vi" Type="VI" URL="../StopIfCan.vi"/>
+		<Item Name="StartIfCan.vi" Type="VI" URL="../StartIfCan.vi"/>
+		<Item Name="AddTaskIfCan.vi" Type="VI" URL="../AddTaskIfCan.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
