@@ -262,6 +262,7 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Config" Type="Folder">
 				<Item Name="ReadIOConfig.vi" Type="VI" URL="../ReadIOConfig.vi"/>
+				<Item Name="LoadRuntimeConf.vi" Type="VI" URL="../LoadRuntimeConf.vi"/>
 			</Item>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -276,7 +277,6 @@ KeepAliveTimeout 60
 			<Item Name="InitControls.vi" Type="VI" URL="../InitControls.vi"/>
 			<Item Name="JoystickAxis.ctl" Type="VI" URL="../JoystickAxis.ctl"/>
 			<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
-			<Item Name="LoadRuntimeConf.vi" Type="VI" URL="../LoadRuntimeConf.vi"/>
 			<Item Name="CloseIO.vi" Type="VI" URL="../CloseIO.vi"/>
 			<Item Name="DumpToDashboard.vi" Type="VI" URL="../Config/DumpToDashboard.vi"/>
 			<Item Name="JoystickButton.ctl" Type="VI" URL="../JoystickButton.ctl"/>
@@ -289,8 +289,9 @@ KeepAliveTimeout 60
 		<Item Name="ConfMaker.vi" Type="VI" URL="../ConfMaker.vi"/>
 		<Item Name="Globals.lvlib" Type="Library" URL="../Globals.lvlib"/>
 		<Item Name="StopIfCan.vi" Type="VI" URL="../StopIfCan.vi"/>
-		<Item Name="StartIfCan.vi" Type="VI" URL="../StartIfCan.vi"/>
 		<Item Name="AddTaskIfCan.vi" Type="VI" URL="../AddTaskIfCan.vi"/>
+		<Item Name="StartIfCan.vi" Type="VI" URL="../StartIfCan.vi"/>
+		<Item Name="GetWrapped.vi" Type="VI" URL="../GetWrapped.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -892,11 +893,11 @@ KeepAliveTimeout 60
 				<Item Name="WPI_UltrasonicUtrasonicDefRefToPingDigitalDevRef.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_UltrasonicUtrasonicDefRefToPingDigitalDevRef.vi"/>
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
-				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Error to Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error to Warning.vi"/>
-				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
+				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
